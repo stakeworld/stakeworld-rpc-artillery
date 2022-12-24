@@ -1,5 +1,5 @@
-# STAKEWORLD.nl rpc artileray testing
-Heavilly inspired by the [Dwellir repository](https://github.com/dwellir-public/artillery-engine-substrate)
+# STAKEWORLD.nl rpc artillery testing
+Heavilly inspired by/forked from the [Dwellir repository](https://github.com/dwellir-public/artillery-engine-substrate)
 
 ### Installation guide
 
