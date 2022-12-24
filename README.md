@@ -22,4 +22,4 @@ yarn global add artillery-engine-substrate
 * `yarn`
 
 #### Scripts
-* `scripts/serve.sh` to serve a development copy
+* `./run.sh` to start your first run.
