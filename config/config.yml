@@ -1,0 +1,36 @@
+config:
+  target: "wss://ksm-rpc.stakeworld.io"
+  processor: "./functions.js"
+  phases:
+    - duration: 10
+      arrivalRate: 10
+      maxVusers: 20
+      name: Test phase
+  engines:
+   substrate: {}
+scenarios:
+  - engine: substrate
+    name: headers_blocks
+    flow:
+      - connect: "{{ target }}"
+      - loop:
+        - call: 
+            method: api.rpc.chain.getHeader()
+            saveTo: header
+        - log: "Current hash: {{ header.hash }}"
+        - call:
+            method: api.rpc.chain.getBlock({{ header.hash }})
+            saveTo: block
+        - log: "Current Block Number: {{ block.block.header.number }}"
+        count: 2
+  - engine: substrate
+    name: balance
+    flow:
+      - send: api.query.system.account('DDtqo6GnWyUip8wxfqbQpaT3EJ539SMBSJRp81tpK8v7rtH')
+      - log: "Alice Account balance= {{ data }}"
+  - engine: substrate
+    name: complex_call
+    flow:
+      - function: "someComplexCall"
+      - log: "Account Nonce {{ accountNonce }}"
+      - log: "Last block timestamp {{ now }}"

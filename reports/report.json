@@ -1,0 +1,153 @@
+{
+  "aggregate": {
+    "counters": {
+      "vusers.created_by_name.complex_call": 30,
+      "vusers.created": 100,
+      "vusers.failed": 0,
+      "vusers.completed": 100,
+      "vusers.created_by_name.headers_blocks": 40,
+      "ws.messages_sent": 190,
+      "vusers.created_by_name.balance": 30
+    },
+    "rates": {
+      "ws.send_rate": 37
+    },
+    "firstCounterAt": 1671920768011,
+    "firstHistogramAt": 1671920768409,
+    "lastCounterAt": 1671920777900,
+    "lastHistogramAt": 1671920777900,
+    "firstMetricAt": 1671920768011,
+    "lastMetricAt": 1671920777900,
+    "period": 1671920770000,
+    "summaries": {
+      "vusers.session_length": {
+        "min": 234.8,
+        "max": 638.2,
+        "count": 100,
+        "p50": 354.3,
+        "median": 354.3,
+        "p75": 432.7,
+        "p90": 497.8,
+        "p95": 518.1,
+        "p99": 608,
+        "p999": 608
+      }
+    },
+    "histograms": {
+      "vusers.session_length": {
+        "min": 234.8,
+        "max": 638.2,
+        "count": 100,
+        "p50": 354.3,
+        "median": 354.3,
+        "p75": 432.7,
+        "p90": 497.8,
+        "p95": 518.1,
+        "p99": 608,
+        "p999": 608
+      }
+    }
+  },
+  "intermediate": [
+    {
+      "counters": {
+        "vusers.created_by_name.headers_blocks": 10,
+        "vusers.created": 20,
+        "ws.messages_sent": 46,
+        "vusers.failed": 0,
+        "vusers.completed": 20,
+        "vusers.created_by_name.balance": 6,
+        "vusers.created_by_name.complex_call": 4
+      },
+      "rates": {
+        "ws.send_rate": 46
+      },
+      "ws.send_rate": null,
+      "firstCounterAt": 1671920768011,
+      "firstHistogramAt": 1671920768409,
+      "lastCounterAt": 1671920769858,
+      "lastHistogramAt": 1671920769858,
+      "firstMetricAt": 1671920768011,
+      "lastMetricAt": 1671920769858,
+      "period": "1671920760000",
+      "summaries": {
+        "vusers.session_length": {
+          "min": 303,
+          "max": 638.2,
+          "count": 20,
+          "p50": 450.4,
+          "median": 450.4,
+          "p75": 497.8,
+          "p90": 561.2,
+          "p95": 608,
+          "p99": 608,
+          "p999": 608
+        }
+      },
+      "histograms": {
+        "vusers.session_length": {
+          "min": 303,
+          "max": 638.2,
+          "count": 20,
+          "p50": 450.4,
+          "median": 450.4,
+          "p75": 497.8,
+          "p90": 561.2,
+          "p95": 608,
+          "p99": 608,
+          "p999": 608
+        }
+      }
+    },
+    {
+      "counters": {
+        "vusers.created_by_name.balance": 24,
+        "vusers.created": 80,
+        "ws.messages_sent": 144,
+        "vusers.failed": 0,
+        "vusers.completed": 80,
+        "vusers.created_by_name.complex_call": 26,
+        "vusers.created_by_name.headers_blocks": 30
+      },
+      "rates": {
+        "ws.send_rate": 23
+      },
+      "ws.send_rate": null,
+      "firstCounterAt": 1671920770010,
+      "firstHistogramAt": 1671920770314,
+      "lastCounterAt": 1671920777900,
+      "lastHistogramAt": 1671920777900,
+      "firstMetricAt": 1671920770010,
+      "lastMetricAt": 1671920777900,
+      "period": "1671920770000",
+      "summaries": {
+        "vusers.session_length": {
+          "min": 234.8,
+          "max": 522.8,
+          "count": 80,
+          "p50": 347.3,
+          "median": 347.3,
+          "p75": 383.8,
+          "p90": 450.4,
+          "p95": 478.3,
+          "p99": 497.8,
+          "p999": 497.8
+        }
+      },
+      "histograms": {
+        "vusers.session_length": {
+          "min": 234.8,
+          "max": 522.8,
+          "count": 80,
+          "p50": 347.3,
+          "median": 347.3,
+          "p75": 383.8,
+          "p90": 450.4,
+          "p95": 478.3,
+          "p99": 497.8,
+          "p999": 497.8
+        }
+      }
+    }
+  ]
+}
